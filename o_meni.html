@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>O meni</title>
+	
+	<style>
+		@font-face {
+			font-family: "LeonaNastasicc";
+			src:url("source/LeonaNastasicc.ttf"); 
+		}
+		body{
+			background-image: url('source/pozadina.jpg');
+			font-family: Garamond;
+		}
+		ul {	/*centriranje*/
+			padding:20px; 
+			margin-left: auto; 
+			margin-right:auto;  
+			width: 300px;
+			white-space:nowrap; 
+			} 
+		li {	display:inline; /*prikaz u jednom redu*/
+			background-color:rgb(183,204,157);
+			padding:20px 20px;
+			border: 2px solid rgb(143,182,171);
+			overflow: none;
+		}
+		li:active {background-color:rgb(175,214,155);} /*kada kliknemo na li mijenja se boja*/
+		
+		li a {	color:rgb(140,161,158); 
+			font-family: "CabinSketch", sans-serif; 
+			/*font-family: "Montserrat", sans-serif; */
+			text-transform: uppercase;
+			}
+		li a:link {text-decoration:none;}
+		li a:hover {text-decoration:underline;}
+		
+		div.gallery {
+			margin: 5px;
+			border: 1px solid #ccc;
+			float: left;
+			width: 180px;
+		}
+
+		div.gallery:hover {
+			border: 1px solid #777;
+		}
+
+		div.gallery img {
+			width: 100%;
+			height: auto;
+		}
+
+		div.desc {
+			padding: 15px;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="./index.html">Pocetna stranica</a></li>
+			<li><a href="./vjezbe.html">Vjezbe</a></li>
+			<li><a href="./video.html">Video</a></li>
+		</ul>
+	</nav>
+	<h1>O meni</h1>
+	<p>
+		Ja sam Leona Nastasic. Imam 19 godina i 
+		idem na Graficki fakultet u Zagrebu. Volim jest tost sa sirom, 
+		citati knjige, gledati filmove, druziti se s prijateljima, pit kavu, 
+		slusati muziku i najvise od svega spavati. U nastavku možete vidjeti
+		neke od mojih interesa:
+	</p>
+	
+	<div class="gallery">
+		<a target="_blank">
+			<img src="./source/o_meni/kava.jpg" alt="kava" width="600" height="400">
+		</a>
+		<div class="desc">Kava je najjača</div>
+	</div>
+	
+	<div class="gallery">
+		<a target="_blank">
+			<img src="./source/o_meni/avatar.jpg" alt="avatar" width="600" height="400">
+		</a>
+		<div class="desc">Najdraži film - obožavam Neytiri</div>
+	</div>
+	
+	<div class="gallery">
+		<a target="_blank">
+			<img src="./source/o_meni/japan.jpg" alt="japan" width="600" height="400">
+		</a>
+		<div class="desc">Država koju bih htjela posjetiti - Japan</div>
+	</div>
+	
+	<div class="gallery">
+		<a target="_blank">
+			<img src="./source/o_meni/astrologija.jpg" alt="astrologija" width="600" height="400">
+		</a>
+		<div class="desc">Jedan od hobija - astrologija</div>
+	</div>
+	
+	<div class="gallery">
+		<a target="_blank">
+			<img src="./source/o_meni/more.jpg" alt="more" width="600" height="400">
+		</a>
+		<div class="desc">Tu bih pila kavu</div>
+	</div>
+	
+	<div class="gallery">
+		<a target="_blank">
+			<img src="./source/o_meni/sushi.jpg" alt="sushi" width="600" height="400">
+		</a>
+		<div class="desc">Najjača hrana</div>
+	</div>
+	
+	<div class="gallery">
+		<a target="_blank">
+			<img src="./source/o_meni/knjiga.jpg" alt="knjiga" width="600" height="400">
+		</a>
+		<div class="desc">Obožavam knjige</div>
+	</div>
+	
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	
+	<p>
+		<strong>A na navedenom linku možete poslušati moju najdražu pjesmu
+		<a href="https://www.youtube.com/watch?v=TkxVOa6u59M">Stargirl</a>.</strong>
+	</p>
+	
+	<p>
+		<strong>Za još knjiga moje najdraže autorice, pogledajte na linku:
+		<a href="https://www.libristo.hr/hr/autor/Mieko%20Kawakami?msclkid=977024a35d9516d00d5542cab9172000&utm_source=bing&utm_medium=cpc&utm_campaign=DSA_bing&utm_term=%2Fautor%2F&utm_content=Autor">Mieko Kawakami</a>.</strong>
+	</p>
+	
+</body>
+</html>

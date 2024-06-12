@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Video</title>
+	
+	<style>
+		@font-face {
+			font-family: "LeonaNastasicc";
+			src:url("source/LeonaNastasicc.ttf"); 
+		}
+		body{
+			background-image: url('source/pozadina.jpg');
+			font-family: Garamond;
+		}
+		ul {	/*centriranje*/
+			padding:20px; 
+			margin-left: auto; 
+			margin-right:auto;  
+			width: 300px;
+			white-space:nowrap; 
+			} 
+		li {	display:inline; /*prikaz u jednom redu*/
+			background-color:rgb(183,204,157);
+			padding:20px 20px;
+			border: 2px solid rgb(143,182,171);
+			overflow: none;
+		}
+		li:active {background-color:rgb(175,214,155);} /*kada kliknemo na li mijenja se boja*/
+		
+		li a {	color:rgb(140,161,158); 
+			font-family: "CabinSketch", sans-serif; 
+			/*font-family: "Montserrat", sans-serif; */
+			text-transform: uppercase;
+			}
+		li a:link {text-decoration:none;}
+		li a:hover {text-decoration:underline;}
+	</style>
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="./index.html">Pocetna stranica</a></li>
+			<li><a href="./o_meni.html">O meni</a></li>
+			<li><a href="./vjezbe.html">Vjezbe</a></li>
+		</ul>
+	</nav>
+	<h1>Video projekt</h1>
+	<video width="1440" height="900" controls>
+		<source src="./source/video/Leona_Nastasic_projektni_zadatak3.mp4"/>
+	</video>
+	<p style="font-size: 22px;">
+		Ovaj video sastavila sam od nekolicine elemenata. Prvi od njih je
+		kinemagraf u kojemu je čaša koja se puni statična, dok voda koja puni tu 
+		čašu se vidi kako teče. Također, video se sastoji od više video isječaka koje
+		sam rezala i spajala zajedno u jednu cjelinu. Osim toga koristila sam se
+		prijelazima između video isječaka. Tokom cijelog videa na ekranu je prikazan
+		statični tekst "Leona Nastasić - Digitalni multimedij 1" i na jednom dijelu
+		videa može se vidjeti animirani tekst koji se odbije od dna videa. 
+	</p>
+</body>
+</html>

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Vježbe</title>
+	
+	<style>
+		@font-face {
+			font-family: "LeonaNastasicc";
+			src:url("source/LeonaNastasicc.ttf"); 
+		}
+		body{
+			background-image: url('source/pozadina.jpg');
+			font-family: Garamond;
+		}
+		ul {	/*centriranje*/
+			padding:20px; 
+			margin-left: auto; 
+			margin-right:auto;  
+			width: 300px;
+			white-space:nowrap; 
+			} 
+		li {	display:inline; /*prikaz u jednom redu*/
+			background-color:rgb(183,204,157);
+			padding:20px 20px;
+			border: 2px solid rgb(143,182,171);
+			overflow: none;
+		}
+		li:active {background-color:rgb(175,214,155);} /*kada kliknemo na li mijenja se boja*/
+		
+		li a {	color:rgb(140,161,158); 
+			font-family: "CabinSketch", sans-serif; 
+			/*font-family: "Montserrat", sans-serif; */
+			text-transform: uppercase;
+			}
+		li a:link {text-decoration:none;}
+		li a:hover {text-decoration:underline;}
+		
+		div.gallery {
+			margin: 5px;
+			border: 1px solid #ccc;
+			float: left;
+			width: 180px;
+		}
+
+		div.gallery:hover {
+			border: 1px solid #777;
+		}
+
+		div.gallery img {
+			width: 100%;
+			height: auto;
+		}
+
+		div.desc {
+			padding: 15px;
+			text-align: center;
+		}
+		
+		td{
+			padding: 20px;
+		}
+	</style>
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="./index.html">Pocetna stranica</a></li>
+			<li><a href="./o_meni.html">O meni</a></li>
+			<li><a href="./video.html">Video</a></li>
+		</ul>
+	</nav>
+	<h1>Vježbe</h1>
+	<table>
+		<tr>
+			<td>
+				<h2>Vježba 1 - font</h2>
+			</td>
+				
+			<td>
+				<h2>Vježba 2 - Bezierova krivulja, precizno crtanje</h2>
+			</td>
+			
+			<td>
+				<h2>Vježba 3 - boja, transformacije</h2>
+			</td>
+		</tr>
+		
+		<tr>
+			<td>
+				<div class="gallery">
+					<a target="_blank">
+						<img src="./source/vjezbe/vj1.jpg" width="600" height="400">
+					</a>
+					<div class="desc">U ovoj vježbi stvarala sam svoj font za slova svojeg imena i prezimena te posebnih znakova poput slova s kvaćicama.</div>
+				</div>
+			</td>
+			
+			<td>
+				<div class="gallery">
+					<a target="_blank">
+						<img src="./source/vjezbe/vj2.jpg" width="600" height="400">
+					</a>
+					<div class="desc">Ova vježba sastojala se od crtanja Bezierovih krivulja unutar mojih inicijala.</div>
+				</div>
+			</td>
+			
+			<td>
+				<div class="gallery">
+					<a target="_blank">
+						<img src="./source/vjezbe/vj3.jpg" width="600" height="400">
+					</a>
+					<div class="desc">U ovoj vježbi sam izradila cvjetić pomoću oblika za koje sam koristila rotate i scale tool</div>
+				</div>
+			</td>
+		</tr>
+		
+		<tr>
+			<td>
+				<h2>Vježba 4 - gradijent, transparencija</h2>
+			</td>
+			
+			<td>
+				<h2>Vježba 5 - retuširanje</h2>
+			</td>
+			
+			<td>
+				<h2>Vježba 6 - koloriranje</h2>
+			</td>
+		</tr>
+		
+		<tr>
+			<td>
+				<div class="gallery">
+					<a target="_blank">
+						<img src="./source/vjezbe/vj4.jpg" width="600" height="400">
+					</a>
+					<div class="desc">Izrađivala sam poster za sniženje ribica koristeći različite gradijente.</div>
+				</div>
+			</td>
+			
+			<td>
+				<div class="gallery">
+					<a target="_blank">
+						<img src="./source/vjezbe/vj5.jpg" width="600" height="400">
+					</a>
+					<div class="desc">Na slici sam popravljala neke nesavršenosti.</div>
+				</div>
+			</td>
+			
+			<td>
+				<div class="gallery">
+					<a target="_blank">
+						<img src="./source/vjezbe/vj6.jpg" width="600" height="400">
+					</a>
+					<div class="desc">U ovoj vježbi sam mijenjala boje odreenih elemenata sa slike.</div>
+				</div>
+			</td>
+		</tr>
+		
+		<tr>
+			<td>
+				<h2>Vježba 7 - fotomontaža</h2>
+			</td>
+			
+			<td>
+				<h2>Vježba 8 - cinemagraf</h2>
+			</td>
+			
+			<td>
+				<h2>Vježba 9 - video obrada</h2>
+			</td>
+		</tr>
+		
+		<tr>
+			<td>
+				<div class="gallery">
+					<a target="_blank">
+						<img src="./source/vjezbe/vj7.jpg" width="600" height="400">
+					</a>
+					<div class="desc">U ovoj vježbi sam izrezivala elemente sa slika i ubacivala ih u primarnu sliku.</div>
+				</div>
+			</td>
+			
+			<td>
+				<div class="gallery">
+					<a target="_blank">
+						<img src="./source/vjezbe/vj8.gif" width="600" height="400">
+					</a>
+					<div class="desc">U ovoj vježbi radila sam kinemagraf, gif u kojemu se jedan dio pomiče dok je drugi statičan.</div>
+				</div>
+			</<td>
+			
+			<td>
+				<div>
+					<a target="_blank">
+						<video width="600" height="400" controls>
+							<source src="./source/vjezbe/vj9.mp4"/>
+						</video>
+					</a>
+					<div class="desc">U ovoj vježbi sam spajala više isječaka zajedno i koristila različite elemente za obradu videa.</div>
+				</div>
+			</td<>
+		</tr>
+		
+		<tr>
+			<td>
+				<h2>Vježba 10 - web stranica u HTML-u</h2>
+			</td>
+		</tr>
+		
+		<tr>
+			<td>
+				<div class="gallery">
+					<a target="_blank">
+						<img src="./source/vjezbe/vj10.jpg" width="600" height="400">
+					</a>
+					<div class="desc">U ovoj vježbi izradila sam web-stranice za prikaz multimedijskih sadržaja.</div>
+				</div>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
